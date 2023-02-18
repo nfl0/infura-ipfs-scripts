@@ -11,7 +11,7 @@ INFURA_PROJECT_SECRET = os.environ.get('INFURA_PROJECT_SECRET')
 
 # If project ID or secret not set, log an error message
 if INFURA_PROJECT_ID == 'your-project-id-here' or INFURA_PROJECT_SECRET == 'your-project-secret-here':
-    print('Error: Please set the INFURA_PROJECT_ID and INFURA_PROJECT_SECRET variables to your Infura project ID and secret')
+    print('Error: Please set the INFURA_PROJECT_ID and INFURA_PROJECT_SECRET variables in the .env file to your Infura project ID and secret')
 else:
     # URL of Infura's IPFS API
     IPFS_API_URL = 'https://ipfs.infura.io:5001/api/v0/cat'
